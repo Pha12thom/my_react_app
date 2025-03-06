@@ -3,7 +3,7 @@ import "./Header.css"
 const Header = () => {
     return (
         <header>
-            <h1>My First React App</h1>
+            <h1 className="header">My First React App</h1>
         
         <nav className="nav-bar">
             <ul className="nav-links">

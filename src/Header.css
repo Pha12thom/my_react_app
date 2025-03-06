@@ -1,0 +1,13 @@
+.nav-bar .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

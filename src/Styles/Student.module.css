@@ -1,0 +1,6 @@
+.student {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: inset 0 0 10px #000;
+    padding: 10px;
+}

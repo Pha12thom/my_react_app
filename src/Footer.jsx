@@ -1,6 +1,9 @@
+import Styles from "./Styles/Footer.module.css"
+
 const Footer = () => {
+   
     return (
-        <footer>
+        <footer className={Styles.footer}>
             <p>&copy; {new Date().getUTCFullYear()} </p>
         </footer>
     );
