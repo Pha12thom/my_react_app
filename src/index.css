@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid rgb(19, 67, 121);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.card-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+}
