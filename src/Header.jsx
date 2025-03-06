@@ -7,10 +7,10 @@ const Header = () => {
         
         <nav className="nav-bar">
             <ul className="nav-links">
-                <li ><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>  
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li className="home"><a href="#">Home</a></li>
+                <li className="about"><a href="#">About</a></li>  
+                <li className="services"><a href="#">Services</a></li>
+                <li className="contact"><a href="#">Contact</a></li>
             </ul>
         </nav>
         

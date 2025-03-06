@@ -1,9 +1,59 @@
-.nav-bar .nav-links {
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+}
+
+.nav-bar .nav-links .home {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 229, 255);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-bar .nav-links .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 229, 255);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar .nav-links .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 229, 255);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar .nav-links .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 229, 255);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {

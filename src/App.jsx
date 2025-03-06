@@ -10,6 +10,7 @@ function App() {
     <>
     <Header />
     <Student name="Milugo" age={23} isStudent={true}/>
+    <Student name="victoria" age={23} isStudent={true}/>
     <Card/>
     <Card/>
     <Card/>
