@@ -1,4 +1,5 @@
-import Styles from "./Styles/student.module.css"
+import Styles from "./styles/student.module.css"
+import PropTypes from 'prop-types';
 
 const Student = (props)=> {
     return (
@@ -12,4 +13,14 @@ const Student = (props)=> {
     );
 }
 
+Student.propTypes = {
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool,
+}
+Student.defaultProps = {
+    name: "Anonymous",
+    age: 0,
+    isStudent: false,
+}
 export default Student;
