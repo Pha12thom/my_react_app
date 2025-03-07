@@ -18,13 +18,14 @@ function App() {
     { id: 1, name: "carrot", calories: 20 },
     { id: 2, name: "broccoli", calories: 30 },
     { id: 3, name: "potato", calories: 30 },
+    
   ];
 
   return (
     <>
       <Header />
+      {Fruits.length > 0 && <ListRender items={Fruits} category="Fruits" />}
       <ListRender items={Vegetables} category="Vegetables" />
-      <ListRender items={Fruits} category="Fruits" />
       <UserGreeting isLoggedin={true} username="Milugo" />
       <Student />
       <Student name="Milugo" age={23} isStudent={true} />
