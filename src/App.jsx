@@ -9,6 +9,7 @@ import List from "./List.jsx"
 import ListRender from "./ListRender.jsx"
 import Buttons from "./Button/Buttons.jsx"
 import Onchange from "./Onchange.jsx"
+import Car from "./Car.jsx"
 
 function App() {
   const Fruits = [
@@ -38,6 +39,7 @@ function App() {
       <Card />
       <Card />
       <Card />
+      <Car />
       <Footer />
     </>
   );
