@@ -7,6 +7,7 @@ import Student from "./Student.jsx"
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import ListRender from "./ListRender.jsx"
+import Buttons from "./Button/Buttons.jsx"
 
 function App() {
   const Fruits = [
@@ -23,7 +24,10 @@ function App() {
 
   return (
     <>
+   
+      <Button />
       <Header />
+      <Buttons/>
       {Fruits.length > 0 && <ListRender items={Fruits} category="Fruits" />}
       <ListRender items={Vegetables} category="Vegetables" />
       <UserGreeting isLoggedin={true} username="Milugo" />

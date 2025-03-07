@@ -20,7 +20,7 @@ const ListRender = (props) => {
 }
 
 ListRender.PropTypes = {
-    items: PropTypes.array,
+    items: PropTypes.arrayOf(PropTypes.shape({ id: PropTypes.number, name: PropTypes.string, calories: PropTypes.number })),
     category: PropTypes.string
 }
 

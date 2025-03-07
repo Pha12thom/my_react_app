@@ -1,0 +1,35 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Increaseage {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.decreaseAge {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.resetAge {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.age {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
