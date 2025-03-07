@@ -8,6 +8,7 @@ import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import ListRender from "./ListRender.jsx"
 import Buttons from "./Button/Buttons.jsx"
+import Onchange from "./Onchange.jsx"
 
 function App() {
   const Fruits = [
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-   
+      <Onchange />
       <Button />
       <Header />
       <Buttons/>
